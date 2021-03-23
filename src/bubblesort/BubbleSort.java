@@ -12,6 +12,7 @@ package bubblesort;
 public class BubbleSort {
 
 	public static  void bubbleSort(int[] arr) {
+		if(arr==null)return;
 		int temp;//¡Ÿ ±±‰¡ø
 		for(int i = 0; i<arr.length; i++) {
 			for(int j = i; j<arr.length-1;j++) {

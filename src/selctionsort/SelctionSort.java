@@ -10,7 +10,7 @@ package selctionsort;
  */
 public class SelctionSort {
 	public static void  selectSort(int[] arr) {
-		
+		if(arr==null)return;
 		for(int i = 0;i<arr.length-1;i++) {
 			int min = i;
 			//找出未排序处最小的

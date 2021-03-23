@@ -11,6 +11,7 @@ package insertionsort;
 public class InsertionSort {
 
 	public static void insertionSort(int[] arr) {
+		if(arr==null)return;
 		int temp;
 		for(int i = 0;i<arr.length-1;i++) {
 			for(int j = i+1;j>0;j--) {
